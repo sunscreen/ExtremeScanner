@@ -24,6 +24,8 @@ I will upload a script that will convert the stencils to the Js files and a new 
 * Libvisio2svg
 * VisJS
 * PHP-NETSNMP
+* Recommended to have a 1080p display to visualize the map.
+* 
 ### Installing
 
 * Installer later
