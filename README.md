@@ -29,7 +29,9 @@ I will upload a script that will convert the stencils to the Js files and a new 
 * VisJS
 * PHP-NETSNMP
 * Recommended to have a 1080p display to visualize the map.
-* 
+* All Devices to be routable from the scan site
+* Devices that have been EDP stripped due to vlan tag will not be able to be connected in the final map should they be.
+
 ### Installing
 
 * Installer later
