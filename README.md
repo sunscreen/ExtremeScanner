@@ -33,6 +33,7 @@ I will upload a script that will convert the stencils to the Js files and a new 
 * Devices that have been EDP stripped due to vlan tag will not be able to be connected in the final map should they be. (this only seemed to be a issue on summit 200's doing vlan activities)
 * All extreme devices configuration of snmp and edp to be correct. -it should be if you plan to remote manage it
 * All configuration labels to be correct.
+* Network to be healthy overall in order to scan reliably.
 
 ### Installing
 
