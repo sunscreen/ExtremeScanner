@@ -16,7 +16,10 @@ nothing is fabricated, for extreme switches this allows you to see the EDP relat
 I will upload a script that will convert the stencils to the Js files and a new vendor_db.js which i am streamlining and tidying further.
 
 
-## Getting Started
+## Extreme Specific Stuff
+It supports Stacking configurations. 
+It supports Extre,es Automatic Protection system - but doesnt use it yet.
+Future support for Power supply/Fan/Health stats (because extreme doesnt support the Health Mib)
 
 ### Dependencies
 
