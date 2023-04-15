@@ -40,7 +40,6 @@ command to run if program contains helper info
 ```
 
 ## Authors
-Lewis Wilson
 
 ## Version History
 
