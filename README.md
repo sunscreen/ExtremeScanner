@@ -11,7 +11,7 @@ As such it can be used to detect other vendors as required, For the time being w
 
 Once the ipscan harvest function has a list of quickscan ips, It will scan the network and generate a Vis JS network map with the resultant data from the final snmp scan.. I used VisJs but thats not exclusive any network chart that supports the concept of "From" "To" linking could be used.
 (SCAN_NETWORK)
-nothing is fabricated, for extreme switches this allows you to see the EDP relationships of your devices, and later i will introduce support for CISCO and IEEE8802 LLDP.
+nothing is fabricated, for extreme switches this allows you to see the EDP relationships of your devices, and later i will introduce support for CISCO and IEEE8802 LLDP which have a less limited and more reliable implementations.
 
 I will upload a script that will convert the stencils to the Js files and a new vendor_db.js which i am streamlining and tidying further.
 
