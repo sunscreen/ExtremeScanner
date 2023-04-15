@@ -9,7 +9,7 @@ This code is able to scan a batch of Network ranges in order to detect and store
 
 As such it can be used to detect other vendors as required, For the time being while i develop it further. its set to Extreme, Junipers and Ubiquiti.
 
-Once the ipscan harvest function has a list of quickscan ips, It will scan the network and output a Vis JS network map with the resultant data from the final snmp scan..
+Once the ipscan harvest function has a list of quickscan ips, It will scan the network and generate a Vis JS network map with the resultant data from the final snmp scan.. I used VisJs but thats not exclusive any network chart that supports the concept of "From" "To" linking could be used.
 (SCAN_NETWORK)
 nothing is fabricated, for extreme switches this allows you to see the EDP relationships of your devices, and later i will introduce support for CISCO and IEEE8802 LLDP.
 
