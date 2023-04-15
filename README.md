@@ -1,7 +1,7 @@
 # ExtremeScanner
 
 ## Description
-Extreme Network (EDP) scanner, although it isnt vendor specific ;)
+Extreme Network scanner, although it isnt vendor specific ;)
 
 
 This code is able to scan a batch of Network ranges in order to detect and store Extreme Devices, Juniper Devices, and Unknown Devices, etc, for later scanning.
