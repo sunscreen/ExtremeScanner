@@ -65,16 +65,16 @@ $discovered_vendors=[];
     for ($scancount = 0;$scancount < count($networkips);$scancount++)
     {
         echo "[collect_devices] $scancount $networkips[$scancount]\n";
-        $protocol = vendor_detect($extreme_scanner, $networkips[$scancount]);
-        if ($protocol == false)
+        $vendor = vendor_detect($extreme_scanner, $networkips[$scancount]);
+        if ($vendor == false)
         {
             print "[collect_devices] no sysobject response for $networkips[$scancount]" . PHP_EOL;
         }
         else
         {
-            print "protocol for $networkips[$scancount] is " . $protocol . PHP_EOL;
+            print "Vendor for $networkips[$scancount] is " . $vendor . PHP_EOL;
 
-            if ($protocol === "EXTREME NETWORKS")
+            if ($vendor === "EXTREME NETWORKS")
             {
                 print "[collect_deviecs] storing extreme " . $networkips[$scancount] . PHP_EOL;
                 array_push($discovered_vendors,"extreme");
@@ -82,18 +82,16 @@ $discovered_vendors=[];
                 continue;
             }
 
-            if ($protocol === "JUNIPER")
+            if ($vendor === "JUNIPER")
             {
                 print "[collect_devices] storing juniper " . $networkips[$scancount] . PHP_EOL;
                 array_push($discovered_vendors,"juniper");
-
                 file_put_contents("juniper_discovered.txt", $networkips[$scancount] . PHP_EOL, FILE_APPEND | LOCK_EX);
                 continue;
             }
-            if ($protocol === "UBIQUITI NETWORKS, INC.")
+            if ($vendor === "UBIQUITI NETWORKS, INC.")
             {
                 array_push($discovered_vendors,"ubiquiti");
-
                 print "[collect_devices] storing ubiquiti " . $networkips[$scancount] . PHP_EOL;
                 file_put_contents("ubiquiti_discovered.txt", $networkips[$scancount] . PHP_EOL, FILE_APPEND | LOCK_EX);
                 continue;
