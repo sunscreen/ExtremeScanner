@@ -18,7 +18,8 @@ I will upload a script that will convert the stencils to the Js files and a new 
 
 ## Extreme Specific Stuff
 * It supports Stacking configurations. 
-* It supports Extre,es Automatic Protection system - but doesnt use it yet.
+* It supports Extremes Automatic Protection system - but doesnt use it yet.
+* It Provides a Micro Mau information (because extreme dosnt support mau oid)
 * Future support for Power supply/Fan/Health stats (because extreme doesnt support the Health Mib)
 
 ### Dependencies
