@@ -31,7 +31,7 @@ and also this is not really a big deal Extreme Choose to use Visio Stencils.. wh
 * PHP-NETSNMP
 * Recommended to have a 1080p display to visualize the map.
 * All Devices to be routable from the scan site
-* Devices that have been EDP stripped due to vlan tag will not be able to be connected in the final map should they be. (this only seemed to be a issue on summit 200's doing vlan activities)
+* Devices that have been EDP stripped due to vlan tag will not be able to be inter-connected in the final map should they be. (this only seemed to be a issue on summit 200's doing vlan activities)
 * All extreme devices configuration of snmp and edp to be correct. -it should be if you plan to remote manage it
 * All configuration labels to be correct.
 * Network to be healthy overall in order to scan reliably.
