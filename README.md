@@ -1,6 +1,57 @@
 # ExtremeScanner
-EDP Scanner for Extreme
-SoonTM: Code to convert stencils (must be done via libvisio2svg)
-SoonTM: Stream lined: ExtremeVendor_db.json (you will noticed Vendor db is missing so the code is not in a functional state yet)
+
+## Description
+Extreme Network (EDP) scanner, although it isnt vendor specific ;)
+
 This code is able to scan a batch of Network Ranges in order to detect and store Extreme Devices, Juniper Devices, and Unknown Devices, for later scanning.
+
+## Getting Started
+
+### Dependencies
+
+* Php
+* Libvision2svg
+
+### Installing
+
+* Installer later
+*
+
+### Executing program
+
+* How to run the program
+* Step-by-step bullets
+```
+code blocks for commands
+```
+
+## Help
+
+Any advise for common problems or issues.
+```
+command to run if program contains helper info
+```
+
+## Authors
+Lewis Wilson
+
+## Version History
+
+* 0.1
+    * Initial Release
+
+## License
+
+This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+
+## Acknowledgments
+
+Inspiration, code snippets, etc.
+* Lots of good people on the internet
+* 
+* 
+* 
+* 
+
+
 
