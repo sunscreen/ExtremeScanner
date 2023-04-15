@@ -10,7 +10,7 @@ This code is able to scan a batch of Network Ranges in order to detect and store
 ### Dependencies
 
 * Php
-* Libvision2svg
+* Libvisio2svg
 
 ### Installing
 
