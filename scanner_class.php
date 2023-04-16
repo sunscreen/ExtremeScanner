@@ -481,7 +481,7 @@ class ExtremeScanner
             $vendor=$this->convert_oid_to_vendor($this->get_snmp_value($systemobject[0], "OID: "));
             return $vendor;
         }
-    return $false;
+    return false;
     }
 
 
