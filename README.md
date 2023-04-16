@@ -15,7 +15,7 @@ nothing is fabricated, for extreme switches this allows you to see the EDP relat
 
 I will upload a script that will convert the stencils to the Js files and a new vendor_db.js which i am streamlining and tidying further.
 and also this is not really a big deal Extreme Choose to use Visio Stencils.. while using native SVG in there own corporate websites.. the code will be further adapted to negate another of extremes oversights and use a function that loads only the detected svgs so you can design your own if you wanted.
-##Notes
+## Notes
 ```
 BUG: snmpMaster memory leak
 # sh memory process "snmpMaster"
