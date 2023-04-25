@@ -31,7 +31,11 @@ Step 2: starting process snmpMaster ...
 Restarted process snmpMaster successfully
 ```
 ## The Ubiquiti Problem
-In this issue we explore the issue where ubiquiti fabricate the Kernel That router runs to make it apear as if they created the kernel/distro when in fact the kernel is Debian Stretch - running on vanila linux 5.x compiled for mips64 and explore the over-arching snmp issue.
+In this issue we explore things where ubiquiti fabricate the Kernel That the router runs to make it apear as if they created the kernel/distro when in fact the dist/kernel is Debian Stretch - running on vanila linux 5.x compiled for mips64, perhaps with some ubnt specific patches.
+
+If you wonder how i found this out .. very simple try and enable lldp on a edgerouter rather then a edgeswitch you will see the issue, fore mostly because ubiquiti need to do the fabricating (for remote management) then results in a somewhat strange and sparsly documented process of actually doing the enabling for edgerouters.
+
+And heres the kicker you cant even know what version of lldpd is running because the devs of lldp didnt give the program a command line switch to show the version.
 
 ```
 ```
