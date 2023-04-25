@@ -14,7 +14,7 @@ Once the ipscan harvest function has a list of quickscan ips, It will scan the n
 nothing is fabricated, for extreme switches this allows you to see the EDP relationships of your devices, and later i will introduce support for CISCO and IEEE8802 LLDP which have a less limited and more reliable implementations as fore mostly Extreme Do not support Remote Mac address of neighbors as in other standards.
 
 I will upload a script that will convert the stencils to the Js files and a new vendor_db.js which i am streamlining and tidying further.
-and also this is not really a big deal Extreme Choose to use Visio Stencils.. while using native SVG in there own corporate websites.. the code will be further adapted to negate another of extremes oversights and use a function that loads only the detected svgs so you can design your own if you wanted.
+and also this is not really a big deal Extreme Choose to use Visio Stencils.. while using native SVG in there own corporate websites.. the code will be further adapted to negate another of extremes oversights and use a function that loads only the detected svgs so you can design your own if you wanted in Native SVG.
 ## Notes
 ```
 BUG: snmpMaster memory leak
