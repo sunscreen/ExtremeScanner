@@ -31,7 +31,7 @@ Step 2: starting process snmpMaster ...
 Restarted process snmpMaster successfully
 ```
 ## The Ubiquiti Problem
-In this issue we explore the issue where ubiquiti fabricate the Kernel That router runs to make it apear as if they created the kernel/distro when in fact the kernel is Debian Stretch - running on vanila linux 5.x compiled for mips64 and explore the arching snmp issue.
+In this issue we explore the issue where ubiquiti fabricate the Kernel That router runs to make it apear as if they created the kernel/distro when in fact the kernel is Debian Stretch - running on vanila linux 5.x compiled for mips64 and explore the over-arching snmp issue.
 
 ```
 ```
