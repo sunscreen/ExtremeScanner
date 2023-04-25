@@ -38,6 +38,9 @@ If you wonder how i found this out .. very simple try and enable lldp on a edger
 but the bottom line reason lldpd and snmp will not ever work on Edgerouters is simply because it was not built with --with-snmp.
 And heres the kicker you cant even know what version of lldpd is running at a glance, because the devs of lldpd didnt give the program a command line switch to show the version and its not printed to the stdout during launch using -d.
 but heres a fun fact! your edge router actually supports EDP, CDP, FDP,SONMP, AND 8022 lldp.
+
+I asked for a simple feature request to allow LLDPD to be a SNMP master agent.
+but the real way to fix it is compile the Linux kernel in such a way from the out set so that you dont need to fabricate any thing LOL it supports doing just this since linux 2.x.
 ```
 ```
 
