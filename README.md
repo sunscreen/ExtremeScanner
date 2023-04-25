@@ -41,8 +41,6 @@ but heres a fun fact! your edge router actually supports EDP, CDP, FDP,SONMP, AN
 
 I asked for a simple feature request to allow LLDPD to be a SNMP master agent.
 but the real way to fix it is compile the Linux kernel in such a way from the out set so that you dont need to fabricate any thing LOL it supports doing just this since linux 2.x.
-```
-```
 
 ## Extreme Specific Stuff
 * It supports Stacking configurations. 
