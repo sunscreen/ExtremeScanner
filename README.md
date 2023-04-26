@@ -43,6 +43,14 @@ I asked for a simple feature request to allow LLDPD to be a SNMP master agent.
 but the real way to fix it is compile the Linux kernel in such a way from the out set so that you dont need to fabricate any thing.
 Run lldpd as a Master Agent.. and dont use strange configuration
 -Kernel supports doing just this since linux 2.x.
+```
+root@bhr:/var/www/html#snmpwalk -v2c -c public localhost 1.3.6.1.2.1.1.1.0
+SNMPv2-MIB::sysDescr.0 = STRING: EdgeOS v2.0.9-hotfix.6.5574652.221230.1020
+root@bhr:/var/www/html# uname -a
+Linux bhr 5.15.0-69-generic #76-Ubuntu SMP Fri Mar 17 17:19:29 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
+root@bhr:/var/www/html#
+```
+as you can see this would zero impact on the way ubiquiti are currently doing things.
 
 ## Extreme Specific Stuff
 * It supports Stacking configurations. 
