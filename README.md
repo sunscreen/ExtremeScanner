@@ -50,7 +50,7 @@ root@bhr:/var/www/html# uname -a
 Linux bhr 5.15.0-69-generic #76-Ubuntu SMP Fri Mar 17 17:19:29 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
 root@bhr:/var/www/html#
 ```
-as you can see this would zero impact on the way ubiquiti are currently doing things.
+as you can see this would have zero impact on the way ubiquiti are currently doing things.
 
 ## Extreme Specific Stuff
 * It supports Stacking configurations. 
