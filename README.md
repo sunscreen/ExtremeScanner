@@ -49,6 +49,9 @@ SNMPv2-MIB::sysDescr.0 = STRING: EdgeOS v2.0.9-hotfix.6.5574652.221230.1020
 root@bhr:/var/www/html# uname -a
 Linux bhr 5.15.0-69-generic #76-Ubuntu SMP Fri Mar 17 17:19:29 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
 root@bhr:/var/www/html#
+root@bhr:/var/www/html# snmpwalk -v2c -c public localhost 1.0.8802.1.1.2.1.1.1.0
+iso.0.8802.1.1.2.1.1.1.0 = INTEGER: 30
+
 ```
 as you can see this would have zero impact on the way ubiquiti are currently doing things.
 
